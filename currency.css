@@ -1,0 +1,15 @@
+body {
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.currency {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+select {
+    margin-right: 20px;
+}
