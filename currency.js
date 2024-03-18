@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const fromValue = document.getElementById('fromNumber');
     const toValue = document.getElementById('toNumber');
 
-    fetch('https://v6.exchangerate-api.com/v6/2311df33350d5c9169925f09/latest/USD')
+    fetch('https://worker-square-bush-1708.dmitry-ulyanichev.workers.dev')
     .then(response => response.json())
     .then(data => {
         exchangeRates = data.conversion_rates;
