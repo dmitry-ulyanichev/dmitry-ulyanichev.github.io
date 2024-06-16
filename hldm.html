@@ -10,12 +10,12 @@
 </head>
 <body>
     <div class="top-row">
-        <div class="days-played" data-label="DAYS PLAYED">0</div>
+        <div id="days-played" class="days-played" data-label="DAYS PLAYED">0</div>
         <div class="daily-bonus" data-label="DAYLY BONUS">
-            <span class="coin-gray" data-symbol="&#9881;">101</span>
+            <span id="daily-bonus-coins" class="coin-gray" data-symbol="&#9881;">0</span>
         </div>
         <div class="bankroll" data-label="BANKROLL">
-            <span class="coin-gold" data-symbol="&#9881;">101</span>
+            <span id="bankroll-coins" class="coin-gold" data-symbol="&#9881;">0</span>
         </div>
     </div>
     <div class="middle-row">
@@ -23,7 +23,7 @@
     </div>
     <div class="bottom-row">
         <div class="menu-symbol">&#9776;</div>
-        <button class="invite-friend-button">Invite Friend</button>
+        <button id="invite-friend-button" class="invite-friend-button">Invite Friend</button>
     </div>
 </body>
 </html>
