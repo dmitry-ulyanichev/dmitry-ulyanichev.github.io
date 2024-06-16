@@ -1,3 +1,5 @@
+/* ... hldm.html rules ... */
+
 body {
     display: flex;
     flex-direction: column;
@@ -73,4 +75,96 @@ body {
 .coin-gold {
     color: gold;
     font-size: 20px;
+}
+
+/* ... invite.html rules ... */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.link-text {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.link-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.link {
+    margin: 0;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.copy-symbol {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.referrals-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.referrals-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.referrals-list {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+
+.referral-item {
+    font-size: 16px;
+    margin-bottom: 5px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.referral-item::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 5px;
+    height: 5px;
+    background-color: #000;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.description {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
 }
