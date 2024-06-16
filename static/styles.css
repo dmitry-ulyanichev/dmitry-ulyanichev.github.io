@@ -4,3 +4,7 @@ html, body {
     padding: 0;
     overflow: hidden;
 }
+
+#game-container {
+    background-color: green;
+}
