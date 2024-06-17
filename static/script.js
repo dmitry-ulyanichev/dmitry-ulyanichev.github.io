@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     fetch(`${apiUrl}/api/users/${userId}/referrer-id`, {
         headers: {
-            'ngrok-skip-browser-warning': 'true'
+            'User-Agent': 'CustomUserAgent'
         }
     })
         .then(response => {
