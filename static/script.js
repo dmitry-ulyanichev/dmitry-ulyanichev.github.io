@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
     window.Telegram.WebApp.expand();
 
-    const userId = 1; // Replace with the actual user ID, possibly retrieved from Telegram Web App context or another source
-    const apiUrl = 'https://fefe-185-137-140-138.ngrok-free.app';
+    const userId = 27; // Replace with the actual user ID, possibly retrieved from Telegram Web App context or another source
+    const apiUrl = 'https://77e5-185-137-140-138.ngrok-free.app';
 
     fetch(`${apiUrl}/api/users/${userId}/referrer-id`)
         .then(response => {
