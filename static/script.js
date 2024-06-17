@@ -4,7 +4,11 @@ document.addEventListener('DOMContentLoaded', function() {
     const userId = 27; // Replace with the actual user ID, possibly retrieved from Telegram Web App context or another source
     const apiUrl = 'https://77e5-185-137-140-138.ngrok-free.app';
 
-    fetch(`${apiUrl}/api/users/${userId}/referrer-id`)
+    fetch(`${apiUrl}/api/users/${userId}/referrer-id`, {
+        headers: {
+            'ngrok-skip-browser-warning': 'true'
+        }
+    })
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok ' + response.statusText);
